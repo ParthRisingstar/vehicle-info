@@ -13,7 +13,7 @@ try:
 except ImportError:
     from PIL import Image, ImageEnhance
 from bs4 import BeautifulSoup, SoupStrainer
-from urllib import urlretrieve
+from urllib.request import urlretrieve
 from io import BytesIO
 
 
